@@ -1,0 +1,20 @@
+# Client Summary and Software Requirements
+Artemis Financial is a consulting company that provides personalized financial planning services, including retirement, investment, and insurance strategies. Since the company deals with sensitive financial data, it requires secure communication and data protection in its software. The main security concern was the lack of encryption, secure authentication, and protection against vulnerabilities. The company needed an improved system that ensured data integrity, secure transmission, and compliance with modern security standards.
+
+# Identifying and Addressing Security Vulnerabilities
+The vulnerability assessment revealed multiple security risks, including improper user input handling, exposed credentials, lack of HTTPS, and outdated dependencies with known vulnerabilities. The manual review and static testing helped identify security flaws such as SQL injection risks, improper error handling, and insecure API interactions. Secure coding is essential because it prevents cyber threats, protects user data, and ensures compliance with industry regulations, ultimately enhancing customer trust and company reputation.
+
+# Challenges and Key Takeaways
+The most challenging part of the assessment was making sure all dependencies were secure while maintaining application functionality. Updating third-party libraries often introduces compatibility issues, requiring careful testing. However, learning how to use tools like the OWASP Dependency Check and following secure coding practices helped speed up the process. Reviewing real-world vulnerabilities reinforced the importance of proactive security measures.
+
+# Enhancing Security Layers
+Security improvements included enforcing HTTPS with an SSL certificate, implementing SHA-256 hashing for data integrity verification, and refactoring code to ensure secure API communications. Sensitive data was encrypted, input validation was added to prevent SQL injection and XSS attacks, and error messages were modified to avoid exposing system details.
+
+# Ensuring Functionality and Security
+After refactoring the code, functional and security tests were conducted to confirm that the application remained operational while being more secure. The dependency check tool was rerun to verify that no new vulnerabilities were introduced. The HTTPS setup and hashing functionality were tested to confirm secure data transmission. These steps made sure that all security enhancements worked as intended without breaking application functionality.
+
+# Useful Tools and Practices
+Several security tools and coding practices proved valuable for this project. The OWASP Dependency Check tool helped identify vulnerabilities in third-party libraries. Secure coding principles such as input validation, principle of least privilege, and proper error handling were implemented. Keeping software updated and enforcing encryption protocols like TLS strengthened overall security.
+
+# Showcasing Work to Future Employers
+This project demonstrates skills in secure software development, vulnerability assessment, and implementation of encryption. Employers value candidates who understand cybersecurity risks and know how to mitigate them. The ability to refactor insecure code, apply encryption and hashing techniques, and conduct thorough security testing are valuable skills. Including this experience in a portfolio would showcase expertise in improving application security while maintaining functionality.
